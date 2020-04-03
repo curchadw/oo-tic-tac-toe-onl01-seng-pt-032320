@@ -115,7 +115,7 @@ end
     
     def play 
       until over?(board)
-      puts""
+      
         turn(board)
         current_player(board)
       end
