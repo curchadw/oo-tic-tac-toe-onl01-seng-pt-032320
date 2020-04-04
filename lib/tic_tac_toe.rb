@@ -105,12 +105,17 @@ end
     end
     
     def winner
-      if index 
-       @board[won?[0]] == "X"? "X":"O"
-      else
-        return nil
-         
-      end
+     index = []
+  index = won?
+  if index == false
+    return nil
+  else
+    if @board[index[0]] == "X"
+      return "X"
+    else
+      return "O"
+    end
+  end
     end
     
     def play
