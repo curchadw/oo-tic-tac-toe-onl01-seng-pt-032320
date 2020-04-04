@@ -119,8 +119,9 @@ end
     end
     
     if won?
-      
+      puts "Congratulations #{winner}"
     elsif
+      
     end 
   
 
