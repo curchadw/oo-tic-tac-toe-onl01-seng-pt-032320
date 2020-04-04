@@ -106,7 +106,7 @@ end
     end
     
     def winner
-     if @board[won?]
+     if @board[won?[]]
        
     end
     
