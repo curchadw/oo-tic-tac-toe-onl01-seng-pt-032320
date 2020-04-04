@@ -114,7 +114,7 @@ end
     end
     
     def play 
-      while over? == false
+      until 
        turn
       end
       
