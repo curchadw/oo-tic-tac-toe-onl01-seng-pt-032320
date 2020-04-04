@@ -114,16 +114,8 @@ end
     end
     
     def play 
-      until over? == true
-    turn
-  end
-
-  if won?
-    puts "Congratulations #{winner}!"
-  elsif draw?
-    puts "Cat's Game!"
-  end
-end
+    while won?
+    end 
   
 
  
