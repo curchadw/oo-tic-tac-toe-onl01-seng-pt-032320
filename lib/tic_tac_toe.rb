@@ -120,7 +120,9 @@ end
     
     if won?
       puts "Congratulations #{winner}"
-    elsif
+    elsif draw?
+      
+    end
       
     end 
   
