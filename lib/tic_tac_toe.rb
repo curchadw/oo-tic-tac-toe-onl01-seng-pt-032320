@@ -114,7 +114,11 @@ end
     end
     
     def play 
-    while won?
+    while over? == false
+     turn
+    end
+    
+    if
     end 
   
 
