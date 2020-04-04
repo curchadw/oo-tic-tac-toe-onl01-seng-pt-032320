@@ -106,7 +106,7 @@ end
     end
     
     def winner
-     if won?
+     if @board
        
     end
     
