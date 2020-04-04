@@ -106,17 +106,7 @@ end
     end
     
     def winner
-     index = []
-     index = won?
-    if index == false
-     return nil
-    else
-     if @board[index[0]] == "X"
-      return "X"
-     else
-      return "O"
-     end
-    end
+     
     end
     
     def play
