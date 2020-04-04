@@ -111,7 +111,7 @@ end
      elsif @board[won?[0]] == "O"
       "O"
     else
-      nil
+       nil
     end
     end
     
