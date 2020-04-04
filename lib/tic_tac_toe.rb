@@ -118,7 +118,9 @@ end
      turn
     end
     
-    if
+    if won?
+      
+    elsif
     end 
   
 
