@@ -48,7 +48,8 @@ def turn
     input = gets.chomp
     index = input_to_index(input)
     if valid_move?(index)
-      move(index)
+      player = current_player
+      move(index, layer)
       display_board
       
     else
