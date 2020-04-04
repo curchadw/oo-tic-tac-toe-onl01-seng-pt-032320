@@ -50,7 +50,7 @@ def turn
     if valid_move?(index)
       move(index)
       display_board
-      player = current_player
+      
     else
       turn
     end
